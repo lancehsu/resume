@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   reactStrictMode: true,
-  basePath: '/resume',
+  basePath: process.env.NODE_ENV === 'development' ? undefined : '/resume',
 };
 
 export default nextConfig;
