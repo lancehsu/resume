@@ -64,6 +64,9 @@ const WORK_EXPERIENCE: ExperienceData<Company> = {
       {
         details: [
           {
+            title: 'Integrated reward allocation mechanism to incentivize user onboarding to the zkEVM chain',
+          },
+          {
             title:
               'Developed a lossless lottery dapp using React, TypeScript, NextJS, and EthersJS, achieving 1.35M USD TVL',
           },

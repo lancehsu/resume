@@ -20,15 +20,22 @@ const PrintSwitcher: FC = () => {
       document.documentElement.classList.add('print:hidden');
     }
   }, [enablePrint]);
+
   return enablePrint ? (
     <MdOutlinePrint
       className="absolute bottom-1 left-1 print:hidden"
       onClick={handleToggle}
+      role="button"
+      aria-label="Disable printing"
+      tabIndex={0}
     />
   ) : (
     <MdOutlinePrintDisabled
       className="absolute bottom-1 left-1 print:hidden"
       onClick={handleToggle}
+      role="button"
+      aria-label="Enable printing"
+      tabIndex={0}
     />
   );
 };
