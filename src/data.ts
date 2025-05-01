@@ -58,7 +58,7 @@ const WORK_EXPERIENCE: ExperienceData<Company> = {
     position: 'Software Developer',
     location: 'Taipei, Taiwan',
     from: 'Nov 2022',
-    to: 'Present',
+    to: 'Mar 2025',
     content: [
       {
         details: [
