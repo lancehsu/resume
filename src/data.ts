@@ -12,7 +12,7 @@ const PROFILE: ProfileData = {
   name: 'Kung-Ling Hsu',
   image: './profile.png',
   summary:
-    'A detail-oriented software engineer with 5+ years of experience in web and decentralized applications. Proficient in React, NextJS, TypeScript, GraphQL, and Zustand, with a track record of delivering efficient and scalable solutions and enhancing user engagement. Skilled in collaborating with cross-functional teams to drive project success.',
+    'A detail-oriented software engineer with 6+ years of experience in web and decentralized applications. Proficient in React, NextJS, TypeScript, GraphQL, and Zustand, with a track record of delivering efficient and scalable solutions and enhancing user engagement. Skilled in collaborating with cross-functional teams to drive project success.',
   socialLinks: [
     {
       name: 'GitHub',
@@ -55,7 +55,7 @@ const SKILL_SET: SkillSetData = {
 
 const WORK_EXPERIENCE: ExperienceData<Company> = {
   cronos: {
-    position: 'Software Developer',
+    position: 'Frontend Developer',
     location: 'Taipei, Taiwan',
     from: 'Nov 2022',
     to: 'Mar 2025',
@@ -82,7 +82,7 @@ const WORK_EXPERIENCE: ExperienceData<Company> = {
     ],
   },
   cdc: {
-    position: 'Software Developer',
+    position: 'Frontend Developer',
     location: 'Taipei, Taiwan',
     from: 'Mar 2022',
     to: 'Nov 2022',
@@ -102,7 +102,7 @@ const WORK_EXPERIENCE: ExperienceData<Company> = {
     ],
   },
   appier: {
-    position: 'Software Engineer',
+    position: 'Software Engineer, Frontend Development',
     location: 'Taipei, Taiwan',
     from: 'Oct 2020',
     to: 'Mar 2022',
@@ -127,7 +127,7 @@ const WORK_EXPERIENCE: ExperienceData<Company> = {
     ],
   },
   linker: {
-    position: 'Software Engineer',
+    position: 'Frontend Engineer',
     location: 'Taipei, Taiwan',
     from: 'Feb 2019',
     to: 'Aug 2020',

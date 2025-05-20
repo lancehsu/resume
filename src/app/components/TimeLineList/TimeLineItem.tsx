@@ -13,7 +13,7 @@ const TimeLineItem: FC<TimeLineItemProps> = ({ title, info }) => (
       <div className="flex items-center gap-0.5">
         <CgShapeCircle />
         <div className="font-semibold text-sm lg:text-base">
-          {title}, {info.location}
+          {title}, {info.location}{info.position && ` - ${info.position}`}
         </div>
       </div>
       <div className="text-xs lg:text-base">
